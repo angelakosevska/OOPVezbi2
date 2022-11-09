@@ -2,9 +2,14 @@ package vezba6;
 
 public class Proizvod {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		public String ime;
+		public int masa;
+		public int cena;
+		
+		public Proizvod() {
+			this.ime="Chokolado";
+			this.masa=100;
+			this.cena=55;
 	}
 
 }
